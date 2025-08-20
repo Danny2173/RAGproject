@@ -1,5 +1,4 @@
-# Core
-torch>=2.1,<2.4
+# Transformers / PEFT
 transformers>=4.40,<4.46
 peft>=0.11.1,<0.13
 
@@ -10,10 +9,11 @@ numpy>=1.24
 pandas>=2.0
 tqdm>=4.66
 nltk>=3.8
+scipy>=1.11
 
 # Plotting
 matplotlib>=3.7
 
-# Needed by many HF seq2seq models (e.g., T5)
+# Seq2Seq helpers
 sentencepiece>=0.1.99
-protobuf>=3.20,<5
+protobuf>=5.29,<6
